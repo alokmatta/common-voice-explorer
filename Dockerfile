@@ -1,5 +1,6 @@
-FROM python:3.7
+FROM geoscienceaustralia/sandbox
 
+RUN mkdir -p /workspace
 
 WORKDIR /workspace
 
